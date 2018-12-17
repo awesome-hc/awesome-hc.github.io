@@ -21,16 +21,16 @@
       gtag("config", "UA-131130072-1");
     </script>
     <title>竹風逐風｜好景不藏，美不流浪</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta property="og:title" content="竹風逐風">
-    <meta property="og:description" content="好景不藏，美不流浪">
-    <meta property="og:url" content="https://awesome-hc.github.io/">
-    <meta property="og:image" content="https://i.imgur.com/u9bADoE.png">
+    <meta property="og:title" content="竹風逐風" />
+    <meta property="og:description" content="好景不藏，美不流浪" />
+    <meta property="og:url" content="https://awesome-hc.github.io/" />
+    <meta property="og:image" content="https://i.imgur.com/u9bADoE.png" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
   </head>
@@ -65,17 +65,17 @@
           <p>
             從尋找景點、規劃路線到回顧旅途，<b>LINE 聊天機器人</b>幫你一手搞定。
           </p>
-          <ul class="actions stacked" id="read-more-wrapper">
-            <li><button class="button" id="read-more">了解更多</button></li>
-          </ul>
           <div class="box" id="more" style="display: none;">
             <ol style="text-align: start;">
               <li>輸入時間、人數和風格，選擇新竹<b>精選景點</b></li>
-              <li>景點開通後，<b>不限體驗次數</b></li>
+              <li>景點開通後，可<b>無限次數體驗</b>，且任務會持續更新</li>
               <li>旅程當天，我們會安排<b>任務</b>，讓您拍照回傳以完成任務</li>
               <li>旅程結束，您會收到客製<b>回顧錦集</b>，為旅途畫下完美句點</li>
             </ol>
           </div>
+          <ul class="actions stacked" id="read-more-wrapper">
+            <li><button class="button" id="read-more">了解更多</button></li>
+          </ul>
         </div>
         <div class="image" style="min-height: 500px;">
           <img src="images/sl1.png" alt="" />
@@ -325,8 +325,8 @@
     <script src="assets/js/main.js"></script>
     <script>
       $("#read-more").click(function() {
-        $("#read-more-wrapper").hide();
-        $("#more").show();
+        $("#read-more-wrapper").hide("fast");
+        $("#more").slideDown("fast");
       });
     </script>
   </body>
